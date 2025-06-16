@@ -1,0 +1,67 @@
+header{
+    text-align: center;
+}
+h1{
+    font-size: 70px;
+    color:rgb(0, 0, 179);
+
+}
+h2{
+    font-size: 40px;
+    color:rgb(0, 135, 188);
+}
+h3{
+    font-size:30px;
+}
+body{
+    background-color:rgb(255, 245, 224);
+}
+footer{
+    text-align: center;
+}
+
+main{
+    display:grid;
+    justify-content: center;
+    align-content:center;
+    grid-template-columns: 60% 30%;
+    grid-template-rows: 100%, 100%;
+    column-gap:3%;
+    row-gap:10%;
+    align-content: space-evenly;
+}
+
+p{
+    font-size: 25px;
+}
+
+.oroszlan{
+    height: auto;
+    width: 100%;
+}
+
+div.grid-kep{
+    display:grid;
+    justify-content: center;
+    align-content:center;
+}
+
+a{
+    
+    text-decoration:none;
+    color:rgb(208, 152, 0)
+}
+a:visited{
+    text-decoration: none;
+    color:rgb(208, 152, 0)
+}
+
+footer {
+    font-size: 20px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    color:rgb(255, 245, 224);
+} 

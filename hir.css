@@ -1,0 +1,56 @@
+header{
+    text-align: center;
+}
+h1{
+    font-size: 70px;
+    color:rgb(0, 0, 179);
+}
+h2{
+    font-size: 40px;
+    color:rgb(0, 135, 188);
+}
+body{
+    background-color:rgb(255, 245, 224);
+}
+footer{
+    text-align: center;
+}
+p{
+    font-size: 25px;
+}
+a{
+    
+    text-decoration:none;
+    color:rgb(208, 152, 0)
+}
+a:visited{
+    text-decoration: none;
+    color:rgb(208, 152, 0)
+}
+
+.gomb{
+    position: absolute;
+    top:5px;
+    left:5px;
+
+    color: rgb(208, 152, 0);
+    background-color:rgb(249, 235, 207);
+    border-top-color: rgb(208, 152, 0);
+    border-left-color: rgb(208, 152, 0);
+    border-bottom-color: rgb(208, 152, 0);
+    border-right-color: rgb(208, 152, 0);
+    font-size:20px;
+    box-shadow: none;
+    border-style: solid;
+
+
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  color:rgb(255, 245, 224);
+}
